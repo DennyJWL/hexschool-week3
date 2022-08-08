@@ -14,10 +14,10 @@
     <nav class="bg-primary">
       <div class="container-md px-0">
         <ul class="d-md-flex justify-content-between align-items-center">
-          <li class="text-center py-2"><a href="#"><img src="./assets/images/logo-white.png" alt="logo" class="w-5 object-fit-cover"></a></li>
+          <li class="text-center py-2"><a href="./index.html"><img src="./assets/images/logo-white.png" alt="logo" class="w-5 object-fit-cover"></a></li>
           <li>
             <ul class="d-flex justify-content-between flex-wrap flex-md-nowrap text-center">
-              <li class="w-50 py-2 py-md-3 navbar-item border"><a href="#" class="h5 me-md-8 fw-normal">系列鏡框</a></li>
+              <li class="w-50 py-2 py-md-3 navbar-item border"><a href="./optical.html" class="h5 me-md-8 fw-normal">系列鏡框</a></li>
               <li class="w-50 py-2 py-md-3 navbar-item border"><a href="#" class="h5 me-md-8">門市據點</a></li>
               <li class="w-50 py-2 py-md-3 navbar-item border"><a href="#" class="h5 me-md-8">部落格</a></li>
               <li class="w-50 py-2 py-md-3 navbar-item border"><a href="#" class="h5">常見問題</a></li>
@@ -89,12 +89,14 @@
     <h2 class="text-center text-white fw-bold mb-3 mb-md-6">聯名設計鏡框</h2>
     <div class="container">
       <div class="row">
-        <div class="col-12 col-lg-6 g-lg-0 text-center mb-3">
-          <img src="./assets/images/home-section4-1.png" alt="" class="w-100">
+        <div class="col-12 col-lg-6 g-lg-0 text-center mb-3 mb-lg-0">
+          <img src="./assets/images/home-section4-1-sm.png" alt="" class="w-100 d-md-none">
+          <img src="./assets/images/home-section4-1.png" alt="" class="w-100 d-none d-md-block">
           <p class="fs2 text-primary fw-black fst-italic bg-white py-1">DOUBLE A+</p>
         </div>
         <div class="col-12 col-lg-6 g-lg-0 text-center">
-          <img src="./assets/images/home-section4-2.png" alt="" class="w-100">
+          <img src="./assets/images/home-section4-2-sm.png" alt="" class="w-100 d-md-none">
+          <img src="./assets/images/home-section4-2.png" alt="" class="w-100 d-none d-md-block">
           <p class="fs2 text-primary fw-black fst-italic bg-white py-1 border-start">YOUTH</p>
         </div>
       </div>
@@ -153,7 +155,7 @@
       <div class="row justify-content-center">
         <div class="col-12 col-md-10 col-lg-6">
           <h5 class="mb-3">我們相當重視您的意見，若您有任何疑問，可先參考「常見問題」，若仍有任何問題，請填妥以下資料，我們會在近期與您聯繫。</h5>
-          <form action="">
+          <form action="./index.html" method="post">
             <label for="name" class="mb-1">姓名</label>
             <input id="name" type="text" placeholder="陳小明" class="w-100 h4 mb-2 bg-transparent">
             <label for="tell" class="mb-1">聯絡電話</label>
@@ -166,7 +168,7 @@
               <input id="checkbox" type="checkbox" class="checkbox">我同意隱私權政策，並同意依隱私權政策中所述的方式處理自己的資料。
             </label>
             <div class="d-flex justify-content-center">
-              <button class="btn btn-primary col-12 col-md-8 py-2">確認送出</button>
+              <input type="submit" value="確認送出" class="btn btn-primary col-12 col-md-8 py-2">
             </div>
           </form>
         </div>
